@@ -69,7 +69,7 @@ footer {
 top-page
 */
 main {
-    background-image: url(https://github.com/kazumakabashima/portfolio_deploy/blob/main/hero.jpg?raw=true);
+    background-image: url("https://github.com/kazumakabashima/portfolio_deploy/blob/main/hero.jpg?raw=true");
     background-position: center center; /* 画像を中央に配置 */
     background-attachment: fixed;
 }
@@ -99,7 +99,7 @@ profile
 .icon{
     height: 300px;
     width: 300px;
-    background-image: url(portfolio_deploy/icon.jpg);
+    background-image: url("https://github.com/kazumakabashima/portfolio_deploy/blob/main/icon.jpg?raw=true");
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
