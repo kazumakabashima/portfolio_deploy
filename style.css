@@ -1,0 +1,186 @@
+/* rest.css */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    list-style: none;
+}
+span {
+    color: #3451A4;
+}
+
+/* style.css */
+
+/* 
+header style 
+*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    color: #FFFFFF;
+    background-color: #2E4B71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.navbar nav ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* 
+footer.style 
+*/
+footer {
+    color: #FFFFFF;
+    background-color: #2E4B71;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+
+/*
+top-page
+*/
+main {
+    background-image: url(portfolio/images/hero.jpg);
+    background-position: center center; /* 画像を中央に配置 */
+    background-attachment: fixed;
+}
+.top-page {
+    padding: 150px 0 0 80px;
+    color: #2E4B71;
+    height: 100vh;
+    font-size: 55px;
+    font-weight: 600;
+    
+}
+
+/* 
+profile 
+*/
+.profile {
+    height: 600px;
+    padding: 250px 0 0 80px;
+}
+.profile__title{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.profile__data{
+    display: flex;
+}
+.icon{
+    height: 300px;
+    width: 300px;
+    background-image: url(portfolio/images/icon.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    border: #2E4B71 solid 1px;
+}
+.profile__data ul li {
+    margin: 0 0 30px 30px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+/* 
+career 
+*/
+.career {
+    height: 600px;
+    padding: 150px 0 0 80px;
+}
+.career__title {
+    font-size: 60px;
+    font-weight: 600;
+}
+.career__data ul li {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* 
+qualification 
+*/
+.qualification {
+    height: 600px;
+    padding: 150px 0 0 80px;
+}
+.qualification__title {
+    font-size: 60px;
+    font-weight: 600;
+}
+.qualification__data ul li {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* 
+product 
+*/
+.product {
+    height: 600px;
+    padding: 250px 0 0 80px;
+}
+.product__title{
+    font-size: 60px;
+    font-weight: 600;
+}
+.product__data ul li {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+/* connect */
+.connect {
+    height: 600px;
+    padding: 250px 0 0 80px;
+}
+.connect__title{
+    font-size: 60px;
+    font-weight: 600;
+}
+.connect__data ul li {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.connect__data ul li a {
+    text-decoration: none;
+    color: #3451A4;
+}
